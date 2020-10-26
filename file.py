@@ -1,14 +1,10 @@
 print("Hello, World!")
 
-
-
 if 7 < 10:
     print("True")
 
-
 x = 5
 y = "hello"
-
 print(x)
 print(y)
 
@@ -39,3 +35,37 @@ print(10 < 9)
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1]) #banana
 print(thislist[-1]) #cherry
+print(thislist[1:3]) #banana, cherry
+
+thislist[1] = "blackcurrant"
+print(thislist) #apple, blackcurrant, cherry
+
+for x in thislist: #prints each item in the list
+  print(x)
+
+if "blackcurrant" in thislist:
+    print("oh yea!!")
+
+print(thislist)
+print("size: ")
+print(len(thislist))
+
+
+thislist.append("orange")
+print(thislist)
+
+
+thislist.insert(1, "melon")
+print(thislist)
+
+thislist.remove("apple")
+print(thislist)
+
+thislist.pop()
+print(thislist)
+
+del thislist[0]
+print(thislist)
+
+del thislist
+print(thislist)
