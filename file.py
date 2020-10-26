@@ -1,1 +1,1 @@
-helfnuvfenwo
+print("Hello, World!")
