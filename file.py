@@ -23,6 +23,7 @@ c = 557
 d = 777
 e = 888
 f = 999
+g = 111
 
 if b > a:
   print("b is greater than a")
