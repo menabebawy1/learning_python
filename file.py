@@ -20,6 +20,7 @@ z = int("3") # z will be 3
 a = 200
 b = 33
 c = 557
+d = 777
 
 if b > a:
   print("b is greater than a")
